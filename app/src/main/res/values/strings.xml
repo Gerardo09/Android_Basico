@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Formulario</string>
+    <string name="title_activity_formulario">Formulario</string>
+    <string name="titulo_bienvenida">Bienvenido</string>
+    <string name="nombre_hint">Nombre Usuario</string>
+    <string name="telefono_hint">Télefono</string>
+    <string name="correo_hint">Correo electónico</string>
+    <string name="descripcion_hint">Descripción</string>
+    <string name="confirma_datos_title">Confirmar Datos</string>
+    <string name="button_label_editar">Editar Datos</string>
+    <string name="label_fecha_nacimiento">Fecha Nacimiento:</string>
+    <string name="label_telefono">Teléfono:</string>
+    <string name="label_email">Email:</string>
+    <string name="label_descripcion">Descripción</string>
+    <string name="Siguiente">Siguiente</string>
+</resources>

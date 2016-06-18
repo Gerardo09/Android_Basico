@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".FormularioActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/nombre_hint"
+        android:id="@+id/edtNombreUsuario"/>
+
+    <DatePicker
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtNombreUsuario"
+        android:id="@+id/dpFechaNacimiento"
+        android:calendarViewShown="false"
+        android:datePickerMode="spinner"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/telefono_hint"
+        android:layout_below="@+id/dpFechaNacimiento"
+        android:id="@+id/edtTelefono"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/correo_hint"
+        android:layout_below="@+id/edtTelefono"
+        android:id="@+id/edtCorreo"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/descripcion_hint"
+        android:layout_below="@+id/edtCorreo"
+        android:id="@+id/edtDescripcion"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnSiguiente"
+        android:text="@string/Siguiente"
+        android:layout_alignParentBottom="true"
+        android:onClick="enviaValores"/>
+
+</RelativeLayout>
